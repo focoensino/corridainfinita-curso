@@ -4479,6 +4479,7 @@ self.C3_JsPropNameTable = [
 	{obstaculos5: 0},
 	{Toque: 0},
 	{Áudio: 0},
+	{Texto: 0},
 	{vidas: 0},
 	{velocidade: 0},
 	{pontos: 0},
@@ -4506,7 +4507,8 @@ self.InstanceType = {
 	obstaculos4: class extends self.ISpriteInstance {},
 	obstaculos5: class extends self.ISpriteInstance {},
 	Toque: class extends self.IInstance {},
-	Áudio: class extends self.IInstance {}
+	Áudio: class extends self.IInstance {},
+	Texto: class extends self.ITextInstance {}
 }
 }
 
